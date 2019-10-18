@@ -1,0 +1,49 @@
+body{
+  background-image:url('Background.jpg');
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  background-position:center;
+  background-attachment:fixed;
+}
+.main{
+  height:covers;
+}
+a:hover{
+  background-image:url('Background.jpg');
+  background-color: red;
+}
+
+.row1{
+  margin-top:50px;
+  margin-left:50px;
+  margin-right:100px;
+}
+
+#row2_1{
+  margin-left:50px;
+}
+
+.col-lg-3{
+  padding-top:50px;
+  padding-left:40px;
+}
+
+.row2{
+  margin-top:20px;
+  margin-left:20px;
+  margin-right:50px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
